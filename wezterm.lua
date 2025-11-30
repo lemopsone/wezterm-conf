@@ -18,7 +18,7 @@ config.window_background_opacity = 0.995
 
 -- Window frame
 config.window_frame = {
-	font = wezterm.font("JetBrains Mono"),
+	font = wezterm.font("Google Sans Code"),
 	font_size = 14,
 }
 
@@ -27,7 +27,7 @@ config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = true
 config.show_tab_index_in_tab_bar = true
 
-config.font = wezterm.font("FiraCode Nerd Font")
+config.font = wezterm.font("Google Sans Code")
 config.font_size = 22
 
 wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_width)
